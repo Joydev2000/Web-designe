@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+	<div id="overlay"></div>
+	<div id="specialbox">
+	<div class="form" >
+				
+			<h2> Log In</h2>
+				<div class="input1">
+				<div class="input">
+					<i class="bi bi-person"></i>
+				<input type="text" placeholder="Username">
+				</div>
+				<div class="input" >
+					<i class="bi bi-eye-fill icon1" id="toggle" onClick="passicon()"></i>
+					<i class="bi bi-eye-slash-fill icon2" id="toggle2" onClick="passicon()"></i>
+				<input type="password" id="upas" placeholder="Password">
+				</div>
+					</div>
+				<button class="btn" onClick="toggleoverlay()">Login</button>   
+				<div class="group">
+				<a href="#">Forget Password</a>
+			    <a href="#">SingUp</a>
+				</div>
+		
+				</div>
+		
+	</div>
+	<div class="header">
+		<nav>
+		<a href="index.html"><img src="Asset/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="bi bi-x-circle c2" onClick="hideMenu()"></i>
+				
+				<ul>
+				<a href="#">HOME</a>
+					<a href="#">ABOUT</a>
+					<a href="#">COURSE</a>
+					<a href="#">BLOG</a>
+					<a href="#">CONTACT</a>
+					<a href="#" onClick="showLog()" style="background:#f44336; border-radius: 15px;">SING IN</a>
+				</ul>
+			</div>
+			
+			<i class="bi bi-list c2 showbt" onClick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+				<h1>World's biggest University</h1>
+			<p>Makking website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.</p>
+			<div class="bt">
+			<a href="#">
+			Visit us To Know More </a>
+				</div>
+			</div>
+		<div class="js" id="form">
+			<div class="form" >
+				<div class="cl-bt">
+
+					<i onClick="hideLog('form')" class="bi bi-x-square-fill"></i>
+					</div>
+			<h2> Log In</h2>
+				<div class="input1">
+				<div class="input">
+					<i class="bi bi-person b2" ></i>
+				<input type="text" placeholder="Username">
+				</div>
+				<div class="input">
+                    <i class="bi bi-eye-fill icon1 b2" id="toggle3" onClick="passicon1()"></i>
+					<i class="bi bi-eye-slash-fill icon2 b2" id="toggle4" onClick="passicon1()"></i>
+			    	<input type="password" id="upas1" placeholder="Password">
+				</div>
+					</div>
+				<button class="btn">Login</button>   
+				<div class="group">
+				<a href="#">Forget Password</a>
+			    <a href="#">SingUp</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	<div class="course">
+	<h1>
+		Courses We Offer
+		</h1>
+		<p>Lorem Ipsum simply dummy text of the printing and.</p>
+		<div class="row">
+		<div class="course-col">
+			<h3>Intermediatre</h3>
+			<p>Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and</p>
+			</div>
+			<div class="course-col">
+			<h3>Degree</h3>
+			<p>Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and</p>
+			</div>
+			<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and.Lorem Ipsum simply dummy text of the printing and</p>
+			</div>
+		</div>
+		</div>
+		<div class="campus">
+		<h1>Our Global Campus</h1>
+			<p>Lorem Ipsum simply dummy text of the printing and.</p>
+			<div class="row">
+				<div class="campus-col">
+				<img src="Asset/london.png">
+					<div class="layer">
+				<h3>LONDON</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+				<img src="Asset/newyork.png">
+					<div class="layer">
+				<h3>MEW YORK</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+				<img src="Asset/washington.png">
+					<div class="layer">
+				<h3 href="index.html">WASHINGTON</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="facilities">
+	<h1>Our Facilites</h1>
+		<p>Lorem Ipsum simply dummy text of the printing and.</p>
+		<div class="row">
+			<div class="facilities-col">
+			<img src="Asset/library.png">
+				<h3>World Class Library</h3>
+				<p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum simply dummy text</p>
+			</div>
+			<div class="facilities-col">
+			<img src="Asset/basketball.png">
+				<h3>Play Ground</h3>
+				<p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum simply dummy text</p>
+			</div>
+			<div class="facilities-col">
+			<img src="Asset/cafeteria.png">
+				<h3>Food</h3>
+				<p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum simply dummy text</p>
+			</div>
+		</div>
+	</div>
+	<div class="testimonials">
+	<h1>What Our Student Says</h1>
+		<p>Lorem Ipsum simply dummy text of the printing and.</p>
+		<div class="row">
+		<div class="testimonials-col">
+			<img src="Asset/user1.jpg">
+			<div><p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum simply dummy text</p>
+			<h3> Shakira</h3>
+				</div>
+			</div>
+				<div class="testimonials-col">
+			<img src="Asset/user2.jpg">
+			<div><p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum simply dummy text</p>
+			<h3> Jhon Cena
+				</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cta">
+	<h1>Enroll For Our Various Online Courses Anywhere From The World </h1>
+		<a href="#">
+		 Contact us</a>
+	</div>
+	<div class="footer">
+	<h4>Abut Us</h4>
+		<p>Lorem Ipsum simply dummy text of the printing andLorem Ipsum<br> simply dummy textr inting andLorem Ipsum simply dummy  </p>
+		<div class="icon">
+		
+		</div>
+		<a>JoydevHAlder@WebDesigner</a>
+	</div>
+	<form id="frm">
+		<h2>CONTACT US NOW!</h2>
+		<div class="pickabocontant">
+		<div class="inputpickabo">
+			<div>
+				<lebel>First Name</lebel>
+		<input type="text" placeholder="First Name"></div>
+		<div>
+			<lebel>Last Name</lebel>
+			<input type="text" placeholder="Last Name">
+			</div>
+			</div>
+		<div class="inputpickaboTwo">
+			<div>
+				<lebel>Enter Your Mobile No.</lebel>
+		<input type="number" placeholder="Phone Number"></div>
+			<div>
+				<lebel>Enter Your Mail Id.</lebel>
+		<input type="email" placeholder="Email">	
+		</div>
+			</div>
+		<div class="textarea">
+		<textarea></textarea>
+		</div>
+			<div class="batom">
+			<a href="#">SUBMIT</a>
+			</div>
+		</div>
+			</form>
+	
+	
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+		navLinks.style.width = "200px";	
+		}
+		function hideMenu(){
+		navLinks.style.width = "0px";	
+		}
+		var form =
+			document.getElementById("form");
+		    function showLog(){
+				form.style.display = 'block';
+			}
+		var form =
+			document.getElementById("form");
+		    function hideLog(){
+				form.style.display = 'none';
+			}
+			function toggleoverlay(){
+		var overlay = document.getElementById('overlay');
+		var specialbox = document.getElementById('specialbox');
+		
+		overlay.style.display = "none";
+		specialbox.style.display = "none";
+		
+	}
+		function passicon(){
+         var upas = document.getElementById('upas');
+         var toggle = document.getElementById('toggle');
+         var toggle2 = document.getElementById('toggle2');
+    if(upas.type == "password"){
+        upas.type = "text";
+        toggle.style.display = "none";
+        toggle2.style.display = "block";
+    }
+    else{
+        upas.type = "password";
+        toggle.style.display = "block";
+        toggle2.style.display = "none";	
+    }
+}
+		function passicon1(){
+         var upas1 = document.getElementById('upas1');
+         var toggle3 = document.getElementById('toggle3');
+         var toggle4 = document.getElementById('toggle4');
+    if(upas1.type == "password"){
+        upas1.type = "text";
+        toggle3.style.display = "none";
+        toggle4.style.display = "block";
+    }
+    else{
+        upas1.type = "password";
+        toggle3.style.display = "block";
+        toggle4.style.display = "none";	
+    }
+}
+	/*function showLog(form){
+		var elem = document.getElementById(form);
+		elem.style.transition = "opacity 0.5s linear 0s"
+		elem.style.display = 'block';
+	}
+		function hideLog(form){
+		var elem = document.getElementById(form);
+		elem.style.transition = "opacity 0.5s linear 0s"
+		elem.style.display = 'none';
+	}*/
+		window.onscroll = picabohandler;
+		function  picabohandler(){
+			var win = document.getElementById("frm");
+			if((window.pageYOffset + window.innerHeight) >=document.body.offsetHeight){
+				win.style.right = "20px"
+			}
+			else{
+				win.style.right = "-650px"
+			}
+		}
+		
+		
+	</script>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
